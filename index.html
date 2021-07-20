@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<TITle></TITle>
+<style>
+
+    td,th{
+    border-style: 5px solid;
+    border-color: black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 10px;
+    
+        
+    }
+
+    th{
+            height: 20px;
+    }
+
+    td{
+        width: 40px;
+        height: 10px;
+    }
+
+    table
+    {
+        border-spacing: 10px;
+        background:lightgrey;
+        
+    }
+
+    #a
+    {
+      width: 20px;
+      height:10px;
+        
+    }
+
+    #b
+    {
+        width: 80px;
+    }
+
+    #c
+    {
+       text-align: left; 
+    }
+    </style>
+</head>
+
+<body>
+    <h2>This is TimeTable</h2>
+  <table border="3">
+<tr>
+    <th>Days/Periods</th>
+    <th>1</th>
+    <th>2</td>
+    <th>3</td>
+    <th id="a"> </th>
+    <th>4</th>
+    <th>5</th>
+    <th id="b">6</th>
+    
+</tr>
+<tr>
+    <td>Mon</td>
+    <td>Science</td>
+    <td>English</td>
+    <td>Hindi</td>
+    <td id="a"  rowspan="6">
+        B<br>
+        R<br>
+        E<br>
+        A<br>
+        K<br> </td>
+    <td>Maths</td>
+    <td>Games</td>
+    <td id="b">Moral Science</td>
+</tr>
+<tr>
+    <td>Tue</td>
+    <td>Science</td>
+    <td>English</td>
+    <td>Hindi</td>
+    <td>Maths</td>
+    <td>Games</td>
+    <td id="b">Moral Science</td>
+</tr>
+<tr>
+    <td>Wed</td>
+    <td>Science</td>
+    <td>English</td>
+    <td rowspan="3">Hindi</td>
+
+    <td>Maths</td>
+    <td>Games</td>
+    <td id="b">Moral Science</td>
+</tr>
+<tr>
+    <td>Thurs</td>
+    <td>Science</td>
+    <td>English</td>
+    
+
+    <td>Maths</td>
+    <td>Games</td>
+    <td id="b">Moral Science</td>
+</tr>
+<tr>
+    <td>Fri</td>
+    <td>Science</td>
+    <td>English</td>
+    
+    <td>Maths</td>
+    <td>Games</td>
+    <td id="b">Moral Science</td>
+</tr>
+<tr>
+    <td>Sat</td>
+    <td>Science</td>
+    <td>English</td>
+    <td>Hindi</td>
+
+    <td colspan="3" id="c">Maths</td>
+    
+</tr>
+<tr>
+    <th colspan="8" >This is Class VII</th>
+    
+</tr>
+  </table>  
+
+  <br>
+  <br>
+  <br>
+<h2>My Bio Data</h2>
+  <form >
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label >First name:</label>
+    <input type="text" placeholder="First name">
+    <label >Last name:</label>
+    <input type="text"  placeholder="Last name">
+    <br>
+    <br>
+    <label >Male:</label>
+    <input type="radio">
+    <label >Female:</label>
+    <input type="radio">
+    <label >Others:</label>
+    <input type="radio">
+    <br>
+    <br>
+    <label >Date of Birth:</label>
+    <input type="date">
+    <br>
+    <br>
+    <label >E-mail:</label>
+    <input type="email"  placeholder="Enter your Email">
+    <br>
+    <br>
+    <label >Phone number:</label>
+    <input type="number"  placeholder="+91">
+    <br>
+    <br>
+    <label >Height</label>
+    <input type="number"  placeholder="Height in Feet">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Education</legend>
+    <label>School Name :</label>
+    <input type="text" placeholder="School Name"><br><br>
+    <label>Class :</label>
+    <input type="text" placeholder="Enter Class"><br>
+    <br>
+    <label>Stream :</label>
+    <input list="stream" placeholder="Stream">
+    <datalist id="stream">
+      <option value="Medical">
+      <option value="Non-Medical">
+      <option value="Commerce">
+      <option value="Arts">
+    </datalist><br><br>
+    <label>Marksheet :</label>
+    <input type="file">
+  </fieldset>
+  <br>
+  <br>
+  <input type="submit">
+  </form>
+</body>
+
+</html>
+
